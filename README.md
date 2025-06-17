@@ -1,6 +1,6 @@
 ## Backend of SmartEats based on agent customization [cui-25-full paper]
 This repo includes the backend for a dietary recommender system that features a customizable conversational agent, as well as a non-customizable baseline. The customization interface looks like this (see the figure below):
-
+![image](teaser.png) 
 
 **🍱 The entrance of this project is `/Central/apifile.py` (for customizable version) and `/Central/apifilebl.py` (for baseline).**
 
