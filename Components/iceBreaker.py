@@ -23,7 +23,7 @@ def iceBreak_interface(uid):
     I always use plain and concise language to communicate with people and will not repeat myself. Moreover, I keep my words short.
     '''.format(personality=persona,style=style,Characteristics=cha)
 
-    client = OpenAI(api_key="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")
+    client = OpenAI(api_key="your-api-key")
 
     interface = "\nMy words: "
     prompt = iceBreakPrompt + interface

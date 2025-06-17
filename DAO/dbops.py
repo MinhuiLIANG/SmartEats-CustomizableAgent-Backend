@@ -5,17 +5,18 @@ import random
 import math
 import requests
 
+# you need to add your credentials here
 cred = credentials.Certificate("../DAO/credentials.json")
 # cred = credentials.Certificate("credentials.json")
 firebase_admin.initialize_app(cred, {
-    "databaseURL": "https://foodcrs-8d22e-default-rtdb.asia-southeast1.firebasedatabase.app/",
-    'storageBucket': 'foodcrs-8d22e.appspot.com'})
+    "databaseURL": "your database url",
+    'storageBucket': 'your storage url'})
 
 # need a round mark in db
 
 # get it from frontend
 # uid = 'asdkhasd'
-version = 'non_customizable'
+version = 'customizable'
 
 
 def adduser(uid):
