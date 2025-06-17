@@ -1,4 +1,4 @@
-## Backend of SmartEats based on agent customization [cui-25-full paper]
+## Backend of SmartEats based on agent customization [📎[cui-25-full paper](https://yuhanlolo.github.io/me/papers/cui25-smarteats-liang.pdf)]
 This repo includes the backend for a dietary recommender system that features a customizable conversational agent, as well as a non-customizable baseline. The user message processing and agent response generating flow of the customizable version looks like this (see the figure below):
 ![image](components.png) 
 
